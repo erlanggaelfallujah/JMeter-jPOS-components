@@ -8,10 +8,6 @@ import org.jpos.iso.channel.NACChannel;
 public class ChannelHelper {
 	
 	private String tpdu = "0000000000"; // default
-	
-	public String getTpdu() {
-		return tpdu;
-	}
 
 	public void setTpdu(String tpdu) {
 		this.tpdu = tpdu;

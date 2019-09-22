@@ -7,9 +7,6 @@ import org.jpos.iso.packager.GenericPackager;
 import java.io.IOException;
 import java.util.HashMap;
 
-/**
- * Created by awibowo on 12/04/2016.
- */
 public class MockJPOSSampler extends JPOSSampler {
 
     public static final String PACKAGER_FILE_ISO87_BINARY_XML = "src/test/resources/iso87binary.xml";
@@ -24,7 +21,7 @@ public class MockJPOSSampler extends JPOSSampler {
 
     @Override
     public String getCurrentThreadName() {
-        return 	Thread.currentThread().getName();
+        return Thread.currentThread().getName();
 
     }
 
